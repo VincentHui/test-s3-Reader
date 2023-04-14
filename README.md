@@ -28,10 +28,10 @@ BUCKET_NAME=XXXXXXXXX
 There is terraform present, which when applied will create the needed private s3 bucket resource with the right access policies. Only the file `tf/variable.tf` needs to be added with the appropriate values, then it can be planned and applied. 
 ````
 variable "aws_access_key" {
-  default = "AKIAR6U7MLWGDLU6U2EN"
+  default = "XXXXXXXXX"
 }
 variable "aws_secret_key" {
-  default = "FRWw7SkBnyCvd5Z9cxppTGrj/Ky4oGGdcR6Xo0KS"
+  default = "XXXXXXXXXX"
 }
 variable "region" {
   default = "eu-west-2"
