@@ -34,3 +34,6 @@ variable "region" {
   default = "eu-west-2"
 }
 ````
+
+## Bucket Contents
+If you have the AWS CLI present you can run the npm script `sync-s3` from the root folder, with a s3 bucket address to sync the contents of the bucket contents folder. This could look some thing like `npm run sync-s3 s3://private-bucket-test/`
