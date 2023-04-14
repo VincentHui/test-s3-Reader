@@ -12,8 +12,10 @@ A S3 file reader demo. This repo contains 4 folders frontend, backend, bucketCon
 `REACT_APP_API_URL=http://localhost:1000`
 
     for the backend
-````ACCESS_KEY_ID=XXXXXXX
+````
+ACCESS_KEY_ID=XXXXXXX
 SECRET_KEY=XXXXXXXX
-BUCKET_NAME=XXXXXXXXX````
+BUCKET_NAME=XXXXXXXXX
+````
 
 3) Finally run and build the Node.js backend with this line in the terminal in the backend folder `npm run start`. Then run this line in the frontend folder `npm run start`
