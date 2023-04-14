@@ -1,7 +1,7 @@
 # test-s3-Reader
 A S3 file reader demo. This repo contains 4 folders frontend, backend, bucketContents and tf
 
-# Quick setup
+## Quick setup
 
 1) First run the npm script install-all which will install all node modules for the backend and frontend
 `npm run install-all`
@@ -21,7 +21,7 @@ BUCKET_NAME=XXXXXXXXX
 
 3) Finally run and build the Node.js backend with this line in the terminal in the backend folder `npm run start`. Then run this line in the frontend folder `npm run start`
 
-# Terraform 
+## Terraform 
 There is terraform present, which when applied will create the needed private s3 bucket resource with the right access policies. Only the file `tf/variable.tf` needs to be added with the appropriate values, then it can be planned and applied. 
 ````
 variable "aws_access_key" {
