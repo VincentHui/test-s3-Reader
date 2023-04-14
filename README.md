@@ -2,7 +2,7 @@
 
 
 # test-s3-Reader
-A S3 file reader demo. This repo contains 4 folders frontend, backend, bucketContents and tf. The frontend is a create-react-app using the typescript template and the backend is node with typescript.
+A S3 file reader demo. This repo contains 4 folders frontend, backend, bucketContents and tf. The frontend is a create-react-app using the typescript template with animation done with react-spring. The backend is node with typescript, using express and the s3 client sdk to make presigned urls. The Cors policies are not ideal but are needed to have them work correctly with this two applications run on localhost off different ports. Inline CSS is used to save time but ideaaly should be replaced with styled-components.
 
 ## Quick setup
 
