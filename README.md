@@ -6,12 +6,12 @@ A S3 file reader demo. This repo contains 4 folders frontend, backend, bucketCon
 1) First run the npm script install-all which will install all node modules for the backend and frontend
 `npm run install-all`
 
-2) Add the needed .env files, one for the backend folder (backend/.env) and the frontend folder (frontend/.env). There are .env.temp files there that describe the needed values for the .env files. For the backend you need access to your AWS console and S3 bucket.
+2) Add the needed .env files, one for the backend folder (backend/.env) and the frontend folder (frontend/.env). There are .env.temp files there that describe the needed values for the .env files. For the backend you need access to your AWS console and S3 bucket. 
 
-  for the frontend
+    for the frontend
 `REACT_APP_API_URL=http://localhost:1000`
 
-  for the backend
+    for the backend
 `ACCESS_KEY_ID=XXXXXXX
 SECRET_KEY=XXXXXXXX
 BUCKET_NAME=XXXXXXXXX`
