@@ -1,5 +1,4 @@
 resource "aws_s3_bucket" "demos3" {
-    # bucket = "${var.bucket_name}" 
     acl = "${var.acl_value}"   
     bucket_prefix = "${var.bucket_name}"
 }
