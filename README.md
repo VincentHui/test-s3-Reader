@@ -2,7 +2,7 @@
 
 
 # test-s3-Reader
-A S3 file reader demo. This repo contains 4 folders frontend, backend, bucketContents and tf
+A S3 file reader demo. This repo contains 4 folders frontend, backend, bucketContents and tf. The frontend is a create-react-app using the typescript template and the backend is node with typescript.
 
 ## Quick setup
 
