@@ -21,7 +21,7 @@ BUCKET_NAME=XXXXXXXXX
 
 3) Finally run and build the Node.js backend with this line in the terminal in the backend folder `npm run start`. Then run this line in the frontend folder `npm run start`
 
-#Terraform 
+# Terraform 
 There is terraform present, which when applied will create the needed private s3 bucket resource with the right access policies. Only the file `tf/variable.tf` needs to be added with the appropriate values, then it can be planned and applied. 
 ````
 variable "aws_access_key" {
